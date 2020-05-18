@@ -1,6 +1,7 @@
 {
   "project_name": "Dummy project",
   "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+  "app_name": "main",
   "description": "A template project",
   "author_name": "Theofilos Alexiou",
   "domain_name": "example.com",
