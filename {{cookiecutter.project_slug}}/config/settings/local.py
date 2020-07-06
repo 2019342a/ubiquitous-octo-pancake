@@ -18,13 +18,7 @@ INSTALLED_APPS += ["debug_toolbar", "django_extensions"]  # noqa F405
 # DATABASES
 # ------------------------------------------------------------------------------
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": "postgres",
-        "USER": "postgres",
-        "HOST": "analytics_db",
-        "PORT": 5432,
-    }
+    "default": env.db("DATABASE_URL") # noqa F405
 }
 
 # django-debug-toolbar

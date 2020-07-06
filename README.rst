@@ -22,11 +22,11 @@ Usage
 
 Install cookiecutter:
 
-    $ pip install cookiecutter
+    :code:`$ pip install cookiecutter`
 
 Then run this command:
 
-    $ cookiecutter https://github.com/2019342a/ubiquitous-octo-pancake
+    :code:`$ cookiecutter https://github.com/2019342a/ubiquitous-octo-pancake`
 
 You'll be prompted for some values. Provide them, then a Django project will be created for you.
 
