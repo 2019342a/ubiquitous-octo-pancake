@@ -65,7 +65,7 @@ THIRD_PARTY_APPS = [
 ]
 
 LOCAL_APPS = [
-    "{{cookiecutter.app_name}}",
+    "{{ cookiecutter.project_slug }}.{{cookiecutter.app_name}}.apps.{{ cookiecutter.app_name_uppercase }}Config",
 ]
 
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
