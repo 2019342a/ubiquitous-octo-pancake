@@ -9,7 +9,7 @@ import environ
 env = environ.Env()
 
 # Set the BASE_DIR using Path
-BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
+BASE_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
 
 
 # GENERAL
