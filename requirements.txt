@@ -3,7 +3,7 @@ cookiecutter==2.1.1  # https://github.com/cookiecutter/cookiecutter
 
 # Testing
 pytest==7.1.2  # https://github.com/pytest-dev/pytest
-pytest-sugar==0.9.4  # https://github.com/Frozenball/pytest-sugar
+pytest-sugar==0.9.5  # https://github.com/Frozenball/pytest-sugar
 
 
 # Code quality
